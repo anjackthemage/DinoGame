@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F10A7ED8-6C75-4B80-97E6-4028FC3124A6}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{F10A7ED8-6C75-4B80-97E6-4028FC3124A6}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Dino_Voice" ID="{1CA72BA4-5E7D-4789-8AD5-AC3228956D81}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

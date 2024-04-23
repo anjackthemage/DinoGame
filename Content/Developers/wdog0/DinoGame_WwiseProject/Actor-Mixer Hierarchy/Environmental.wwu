@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1815F86-24B9-41A6-8B58-4A8E768EC6FF}" SchemaVersion="119">
+	<AudioObjects>
+		<WorkUnit Name="Environmental" ID="{A1815F86-24B9-41A6-8B58-4A8E768EC6FF}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="3"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="SFX" ID="{BC9E8C0B-4C91-4D97-9A32-970DB1CB809B}" PersistMode="Reference"/>
+				<WorkUnit Name="Dialogue" ID="{3B9F9791-7C4F-4FC1-AB83-46FDF0FF4D2A}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="216067002" Type="Event" GUID="{9139C408-5AE1-4A41-846C-99C612323C38}" Language="SFX" Hash="{74FFCFB2-C1FC-8AAB-96CD-E19FAC2C9E8C}">
+			<ObjectPath>ui_confirm</ObjectPath>
+			<ShortName>ui_confirm</ShortName>
+			<Path>Event/ui_confirm.bnk</Path>
+			<Media>
+				<File Id="523129563" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Confirm.wav</ShortName>
+					<Path>Media/523129563.wem</Path>
+					<CachePath>SFX/Confirm_041369BD.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="216067002" Name="ui_confirm" ObjectPath="\Events\Default Work Unit\UI\ui_confirm" GUID="{9139C408-5AE1-4A41-846C-99C612323C38}" DurationType="OneShot" DurationMin="1.7033309" DurationMax="1.7033309">
+					<MediaRefs>
+						<MediaRef Id="523129563"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{64C610DA-C734-9A49-15C5-3C61BA2A9E4E}</FileHash>
+</SoundBanksInfo>

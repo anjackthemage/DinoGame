@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{559C9533-EE8B-4667-A04D-F4C53B1D9147}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{559C9533-EE8B-4667-A04D-F4C53B1D9147}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{47E7FEA4-AF64-4C07-8276-E0316C598DB2}" ShortID="15718489">
+					<ChildrenList>
+						<Event Name="ui_cancel" ID="{BC1A22F0-7875-4280-BA1A-6CF9A96C0DAF}">
+							<ChildrenList>
+								<Action Name="" ID="{FD8C97E1-B121-4C59-870A-82651821E73C}" ShortID="51755395">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cancel" ID="{E6286630-C936-4267-A27D-E6902663970A}" WorkUnitID="{63EB673E-7AC7-4989-A6C3-5D33D6578B7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ui_confirm" ID="{9139C408-5AE1-4A41-846C-99C612323C38}">
+							<ChildrenList>
+								<Action Name="" ID="{ACC9D3AC-C8B8-443C-A426-7B5317435FF7}" ShortID="1065177542">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Confirm" ID="{898366F7-1BA5-47D4-9751-6BAC870FC05C}" WorkUnitID="{63EB673E-7AC7-4989-A6C3-5D33D6578B7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ui_menu_up" ID="{400B196F-99C2-4951-92C5-1835123ED86A}">
+							<ChildrenList>
+								<Action Name="" ID="{FF8BAE02-A4B0-45F8-B120-8EEA3C3F677A}" ShortID="6727333">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu_Up" ID="{F49D9149-B558-42FB-9EF6-F9EE204B2BFE}" WorkUnitID="{63EB673E-7AC7-4989-A6C3-5D33D6578B7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ui_menu_down" ID="{943CAA79-2E19-4651-A508-BF219742E010}">
+							<ChildrenList>
+								<Action Name="" ID="{EB7FE7AB-9201-4E09-A335-65A22E354F61}" ShortID="892394777">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Menu_Down" ID="{3033EBE5-C3B6-4F8D-88B4-41824BDB5C1C}" WorkUnitID="{63EB673E-7AC7-4989-A6C3-5D33D6578B7E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environmental" ID="{8C7F5C3F-DE21-4A61-9FCD-834B3B71BC40}" ShortID="685996564">
+					<ChildrenList>
+						<Folder Name="Dialogue" ID="{40ACF35F-8791-4F62-9558-832FB3F96711}" ShortID="1030537277">
+							<ChildrenList>
+								<Event Name="dino_voice" ID="{6F4F16D0-F33D-4D76-872A-D7AADD6D97F5}">
+									<ChildrenList>
+										<Action Name="" ID="{1CF70E19-1CFE-4B38-BFE1-0B96AD3D409F}" ShortID="468505067">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Voices" ID="{80FB2D1F-B37A-4114-8259-86EA809B8945}" WorkUnitID="{3B9F9791-7C4F-4FC1-AB83-46FDF0FF4D2A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SFX" ID="{A1BB8C29-825D-496F-A2B2-DC1ADFF92D9A}" ShortID="264928306">
+							<ChildrenList>
+								<Event Name="player_footsteps" ID="{6A9065C9-220C-4F8B-9EFC-40EA276CD2FB}">
+									<ChildrenList>
+										<Action Name="" ID="{4497F273-DA3E-429A-8C0C-D956E8706F7F}" ShortID="962506231">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{630004B7-5BED-45EF-B820-972AE495EBB8}" WorkUnitID="{BC9E8C0B-4C91-4D97-9A32-970DB1CB809B}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

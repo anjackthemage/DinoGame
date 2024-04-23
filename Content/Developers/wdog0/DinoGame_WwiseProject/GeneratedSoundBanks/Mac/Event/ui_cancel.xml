@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3083016892" Type="Event" GUID="{BC1A22F0-7875-4280-BA1A-6CF9A96C0DAF}" Language="SFX" Hash="{A67FF936-D6D4-933F-A8F8-DD7C645B2551}">
+			<ObjectPath>ui_cancel</ObjectPath>
+			<ShortName>ui_cancel</ShortName>
+			<Path>Event/ui_cancel.bnk</Path>
+			<Media>
+				<File Id="778343760" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cancel.wav</ShortName>
+					<Path>Media/778343760.wem</Path>
+					<CachePath>SFX/Cancel_252FF634.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3083016892" Name="ui_cancel" ObjectPath="\Events\Default Work Unit\UI\ui_cancel" GUID="{BC1A22F0-7875-4280-BA1A-6CF9A96C0DAF}" DurationType="OneShot" DurationMin="1.707819" DurationMax="1.707819">
+					<MediaRefs>
+						<MediaRef Id="778343760"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{228BED03-9F2A-E04D-F93D-38951FB49C1F}</FileHash>
+</SoundBanksInfo>

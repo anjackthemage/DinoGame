@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1730208058" Type="Event" GUID="{6A9065C9-220C-4F8B-9EFC-40EA276CD2FB}" Language="SFX" Hash="{669D0EF2-E4E6-7F0F-4BBE-581C262191D6}">
+			<ObjectPath>player_footsteps</ObjectPath>
+			<ShortName>player_footsteps</ShortName>
+			<Path>Event/player_footsteps.bnk</Path>
+			<Media>
+				<File Id="142963604" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard D.wav</ShortName>
+					<Path>Media/142963604.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard D_AFDABE91.wem</CachePath>
+				</File>
+				<File Id="205296146" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard E.wav</ShortName>
+					<Path>Media/205296146.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard E_AAB97199.wem</CachePath>
+				</File>
+				<File Id="211197446" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard E.wav</ShortName>
+					<Path>Media/211197446.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard E_3A22A586.wem</CachePath>
+				</File>
+				<File Id="294325949" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard A.wav</ShortName>
+					<Path>Media/294325949.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard A_35B2E67D.wem</CachePath>
+				</File>
+				<File Id="401229884" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard B.wav</ShortName>
+					<Path>Media/401229884.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard B_528BCCE0.wem</CachePath>
+				</File>
+				<File Id="582614347" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard B.wav</ShortName>
+					<Path>Media/582614347.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard B_35F4F581.wem</CachePath>
+				</File>
+				<File Id="645223884" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard B.wav</ShortName>
+					<Path>Media/645223884.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard B_78786DA1.wem</CachePath>
+				</File>
+				<File Id="658210176" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard A.wav</ShortName>
+					<Path>Media/658210176.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard A_D11506BD.wem</CachePath>
+				</File>
+				<File Id="782924800" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard C.wav</ShortName>
+					<Path>Media/782924800.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard C_434B75EE.wem</CachePath>
+				</File>
+				<File Id="810830135" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard D.wav</ShortName>
+					<Path>Media/810830135.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard D_6AF079CA.wem</CachePath>
+				</File>
+				<File Id="828347650" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard E.wav</ShortName>
+					<Path>Media/828347650.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard E_6AAE54E1.wem</CachePath>
+				</File>
+				<File Id="865982814" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard A.wav</ShortName>
+					<Path>Media/865982814.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard A_08E9F623.wem</CachePath>
+				</File>
+				<File Id="941501521" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard C.wav</ShortName>
+					<Path>Media/941501521.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard C_F7A2C5F8.wem</CachePath>
+				</File>
+				<File Id="1037666883" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard C.wav</ShortName>
+					<Path>Media/1037666883.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard C_71781035.wem</CachePath>
+				</File>
+				<File Id="1062378562" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard D.wav</ShortName>
+					<Path>Media/1062378562.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard D_EA5C229B.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1730208058" Name="player_footsteps" ObjectPath="\Events\Default Work Unit\Environmental\SFX\player_footsteps" GUID="{6A9065C9-220C-4F8B-9EFC-40EA276CD2FB}" DurationType="OneShot" DurationMin="0.032781113" DurationMax="0.2962441">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2195636714" GUID="{4785FA42-A8F9-4340-8124-353F9DFA408D}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="294325949"/>
+								<MediaRef Id="582614347"/>
+								<MediaRef Id="810830135"/>
+								<MediaRef Id="828347650"/>
+								<MediaRef Id="1037666883"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1216965916" GUID="{8BBBA0E2-FAE9-4BFA-957B-BC830ECE313A}"/>
+							<MediaRefs>
+								<MediaRef Id="142963604"/>
+								<MediaRef Id="211197446"/>
+								<MediaRef Id="645223884"/>
+								<MediaRef Id="865982814"/>
+								<MediaRef Id="941501521"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="4248645337" GUID="{9DFA51F2-43AD-4015-BB7F-70677E88CDB3}"/>
+							<MediaRefs>
+								<MediaRef Id="205296146"/>
+								<MediaRef Id="401229884"/>
+								<MediaRef Id="658210176"/>
+								<MediaRef Id="782924800"/>
+								<MediaRef Id="1062378562"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3714303081" Name="Surfaces" ObjectPath="\Switches\Default Work Unit\Surfaces" GUID="{CD57CC38-CC36-4074-AF66-B876C813EF6A}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surfaces\Stone" GUID="{8BBBA0E2-FAE9-4BFA-957B-BC830ECE313A}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surfaces\Dirt" GUID="{4785FA42-A8F9-4340-8124-353F9DFA408D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surfaces\Grass" GUID="{9DFA51F2-43AD-4015-BB7F-70677E88CDB3}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3A3A12C9-8AA8-D6DF-68E6-258672C94775}</FileHash>
+</SoundBanksInfo>

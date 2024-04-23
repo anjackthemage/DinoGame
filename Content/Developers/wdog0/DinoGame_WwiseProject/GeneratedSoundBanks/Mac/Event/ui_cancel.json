@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3083016892",
+    "Type": "Event",
+    "GUID": "{BC1A22F0-7875-4280-BA1A-6CF9A96C0DAF}",
+    "Language": "SFX",
+    "Hash": "{A67FF936-D6D4-933F-A8F8-DD7C645B2551}",
+    "ObjectPath": "ui_cancel",
+    "ShortName": "ui_cancel",
+    "Path": "Event/ui_cancel.bnk",
+    "Media": [
+     {
+      "Id": "778343760",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cancel.wav",
+      "Path": "Media/778343760.wem",
+      "CachePath": "SFX/Cancel_252FF634.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3083016892",
+      "Name": "ui_cancel",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_cancel",
+      "GUID": "{BC1A22F0-7875-4280-BA1A-6CF9A96C0DAF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.707819",
+      "DurationMax": "1.707819",
+      "MediaRefs": [
+       {
+        "Id": "778343760"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F8E85C82-7352-DD77-56B4-E69C2CB73BAE}"
+ }
+}

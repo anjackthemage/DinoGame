@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3092893974",
+    "Type": "Event",
+    "GUID": "{943CAA79-2E19-4651-A508-BF219742E010}",
+    "Language": "SFX",
+    "Hash": "{7107D90E-EE67-0C4F-B8E0-8688D013C7D6}",
+    "ObjectPath": "ui_menu_down",
+    "ShortName": "ui_menu_down",
+    "Path": "Event/ui_menu_down.bnk",
+    "Media": [
+     {
+      "Id": "630573081",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Menu_Down.wav",
+      "Path": "Media/630573081.wem",
+      "CachePath": "SFX/Menu_Down_A2E8E099.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3092893974",
+      "Name": "ui_menu_down",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_menu_down",
+      "GUID": "{943CAA79-2E19-4651-A508-BF219742E010}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8692537",
+      "DurationMax": "0.8692537",
+      "MediaRefs": [
+       {
+        "Id": "630573081"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{24F58F1A-DB53-A3AC-348D-510B43A2D967}"
+ }
+}

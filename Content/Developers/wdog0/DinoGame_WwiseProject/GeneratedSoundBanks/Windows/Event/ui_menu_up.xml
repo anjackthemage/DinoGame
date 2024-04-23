@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2139045725" Type="Event" GUID="{400B196F-99C2-4951-92C5-1835123ED86A}" Language="SFX" Hash="{FD6F2E7B-DC3A-C37A-F4BC-F24790D0FCAA}">
+			<ObjectPath>ui_menu_up</ObjectPath>
+			<ShortName>ui_menu_up</ShortName>
+			<Path>Event/ui_menu_up.bnk</Path>
+			<Media>
+				<File Id="229508014" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Menu_Up.wav</ShortName>
+					<Path>Media/229508014.wem</Path>
+					<CachePath>SFX/Menu_Up_62D8B565.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2139045725" Name="ui_menu_up" ObjectPath="\Events\Default Work Unit\UI\ui_menu_up" GUID="{400B196F-99C2-4951-92C5-1835123ED86A}" DurationType="OneShot" DurationMin="0.8730152" DurationMax="0.8730152">
+					<MediaRefs>
+						<MediaRef Id="229508014"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{44F7DFDA-508E-BC73-A4AE-9062AFC4AFF7}</FileHash>
+</SoundBanksInfo>

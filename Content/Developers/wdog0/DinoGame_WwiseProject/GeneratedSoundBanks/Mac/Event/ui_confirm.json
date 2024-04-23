@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "216067002",
+    "Type": "Event",
+    "GUID": "{9139C408-5AE1-4A41-846C-99C612323C38}",
+    "Language": "SFX",
+    "Hash": "{74FFCFB2-C1FC-8AAB-96CD-E19FAC2C9E8C}",
+    "ObjectPath": "ui_confirm",
+    "ShortName": "ui_confirm",
+    "Path": "Event/ui_confirm.bnk",
+    "Media": [
+     {
+      "Id": "523129563",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Confirm.wav",
+      "Path": "Media/523129563.wem",
+      "CachePath": "SFX/Confirm_041369BD.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "216067002",
+      "Name": "ui_confirm",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\ui_confirm",
+      "GUID": "{9139C408-5AE1-4A41-846C-99C612323C38}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7033309",
+      "DurationMax": "1.7033309",
+      "MediaRefs": [
+       {
+        "Id": "523129563"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2B62BA10-6D7F-417C-97A2-C4C4E9273B5A}"
+ }
+}

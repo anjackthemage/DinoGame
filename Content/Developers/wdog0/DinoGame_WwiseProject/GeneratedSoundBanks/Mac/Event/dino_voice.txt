@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3409405782	dino_voice			\Default Work Unit\Environmental\Dialogue\dino_voice	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3409405782	Dino_Voice			\Default Work Unit\Dino_Voice	
+
+Effect plug-ins	ID	Name	Type				Notes
+	29738352	Pitch Shifter (Custom)	Wwise Pitch Shifter			
+

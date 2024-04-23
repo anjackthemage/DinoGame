@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="216067002" Type="Event" GUID="{9139C408-5AE1-4A41-846C-99C612323C38}" Language="SFX" Hash="{74FFCFB2-C1FC-8AAB-96CD-E19FAC2C9E8C}">
+			<ObjectPath>ui_confirm</ObjectPath>
+			<ShortName>ui_confirm</ShortName>
+			<Path>Event/ui_confirm.bnk</Path>
+			<Media>
+				<File Id="523129563" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Confirm.wav</ShortName>
+					<Path>Media/523129563.wem</Path>
+					<CachePath>SFX/Confirm_041369BD.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="216067002" Name="ui_confirm" ObjectPath="\Events\Default Work Unit\UI\ui_confirm" GUID="{9139C408-5AE1-4A41-846C-99C612323C38}" DurationType="OneShot" DurationMin="1.7033309" DurationMax="1.7033309">
+					<MediaRefs>
+						<MediaRef Id="523129563"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{F7B94109-1CC1-0C91-AB13-AE56CF492464}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{FA5E2A4F-57DD-4B5B-B564-C9AB7808380F}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{5F321043-64B1-4299-8023-9C5B3DBD9045}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="393239870" Name="SFX" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX" GUID="{0D423F54-A60F-485C-8818-4ED3F4B63678}"/>
+				<Bus Id="1551306167" Name="UI" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\UI" GUID="{AEAAD5EA-07AE-4831-89DD-0B5378864012}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3930136735" Name="Dialogue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Dialogue" GUID="{957F7ACE-DD23-43DF-9857-E134ADFB48F8}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="3409405782" Name="Dino_Voice" ObjectPath="\Game Parameters\Default Work Unit\Dino_Voice" GUID="{1CA72BA4-5E7D-4789-8AD5-AC3228956D81}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3714303081" Name="Surfaces" ObjectPath="\Switches\Default Work Unit\Surfaces" GUID="{CD57CC38-CC36-4074-AF66-B876C813EF6A}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surfaces\Stone" GUID="{8BBBA0E2-FAE9-4BFA-957B-BC830ECE313A}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surfaces\Dirt" GUID="{4785FA42-A8F9-4340-8124-353F9DFA408D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surfaces\Grass" GUID="{9DFA51F2-43AD-4015-BB7F-70677E88CDB3}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1730208058" Type="Event" GUID="{6A9065C9-220C-4F8B-9EFC-40EA276CD2FB}" Language="SFX" Hash="{669D0EF2-E4E6-7F0F-4BBE-581C262191D6}">
+			<ObjectPath>player_footsteps</ObjectPath>
+			<ShortName>player_footsteps</ShortName>
+			<Path>Event/player_footsteps.bnk</Path>
+			<Media>
+				<File Id="142963604" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard D.wav</ShortName>
+					<Path>Media/142963604.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard D_AFDABE91.wem</CachePath>
+				</File>
+				<File Id="205296146" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard E.wav</ShortName>
+					<Path>Media/205296146.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard E_AAB97199.wem</CachePath>
+				</File>
+				<File Id="211197446" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard E.wav</ShortName>
+					<Path>Media/211197446.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard E_3A22A586.wem</CachePath>
+				</File>
+				<File Id="294325949" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard A.wav</ShortName>
+					<Path>Media/294325949.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard A_35B2E67D.wem</CachePath>
+				</File>
+				<File Id="401229884" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard B.wav</ShortName>
+					<Path>Media/401229884.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard B_528BCCE0.wem</CachePath>
+				</File>
+				<File Id="582614347" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard B.wav</ShortName>
+					<Path>Media/582614347.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard B_35F4F581.wem</CachePath>
+				</File>
+				<File Id="645223884" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard B.wav</ShortName>
+					<Path>Media/645223884.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard B_78786DA1.wem</CachePath>
+				</File>
+				<File Id="658210176" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard A.wav</ShortName>
+					<Path>Media/658210176.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard A_D11506BD.wem</CachePath>
+				</File>
+				<File Id="782924800" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard C.wav</ShortName>
+					<Path>Media/782924800.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard C_434B75EE.wem</CachePath>
+				</File>
+				<File Id="810830135" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard D.wav</ShortName>
+					<Path>Media/810830135.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard D_6AF079CA.wem</CachePath>
+				</File>
+				<File Id="828347650" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard E.wav</ShortName>
+					<Path>Media/828347650.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard E_6AAE54E1.wem</CachePath>
+				</File>
+				<File Id="865982814" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard A.wav</ShortName>
+					<Path>Media/865982814.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard A_08E9F623.wem</CachePath>
+				</File>
+				<File Id="941501521" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Stone Hard C.wav</ShortName>
+					<Path>Media/941501521.wem</Path>
+					<CachePath>SFX/Bare Step Stone Hard C_F7A2C5F8.wem</CachePath>
+				</File>
+				<File Id="1037666883" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Gravel Hard C.wav</ShortName>
+					<Path>Media/1037666883.wem</Path>
+					<CachePath>SFX/Bare Step Gravel Hard C_71781035.wem</CachePath>
+				</File>
+				<File Id="1062378562" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Bare Step Grass Hard D.wav</ShortName>
+					<Path>Media/1062378562.wem</Path>
+					<CachePath>SFX/Bare Step Grass Hard D_EA5C229B.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1730208058" Name="player_footsteps" ObjectPath="\Events\Default Work Unit\Environmental\SFX\player_footsteps" GUID="{6A9065C9-220C-4F8B-9EFC-40EA276CD2FB}" DurationType="OneShot" DurationMin="0.032781113" DurationMax="0.2962441">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="2195636714" GUID="{4785FA42-A8F9-4340-8124-353F9DFA408D}" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="294325949"/>
+								<MediaRef Id="582614347"/>
+								<MediaRef Id="810830135"/>
+								<MediaRef Id="828347650"/>
+								<MediaRef Id="1037666883"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="1216965916" GUID="{8BBBA0E2-FAE9-4BFA-957B-BC830ECE313A}"/>
+							<MediaRefs>
+								<MediaRef Id="142963604"/>
+								<MediaRef Id="211197446"/>
+								<MediaRef Id="645223884"/>
+								<MediaRef Id="865982814"/>
+								<MediaRef Id="941501521"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3714303081" Id="4248645337" GUID="{9DFA51F2-43AD-4015-BB7F-70677E88CDB3}"/>
+							<MediaRefs>
+								<MediaRef Id="205296146"/>
+								<MediaRef Id="401229884"/>
+								<MediaRef Id="658210176"/>
+								<MediaRef Id="782924800"/>
+								<MediaRef Id="1062378562"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3714303081" Name="Surfaces" ObjectPath="\Switches\Default Work Unit\Surfaces" GUID="{CD57CC38-CC36-4074-AF66-B876C813EF6A}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surfaces\Stone" GUID="{8BBBA0E2-FAE9-4BFA-957B-BC830ECE313A}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surfaces\Dirt" GUID="{4785FA42-A8F9-4340-8124-353F9DFA408D}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surfaces\Grass" GUID="{9DFA51F2-43AD-4015-BB7F-70677E88CDB3}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2139045725" Type="Event" GUID="{400B196F-99C2-4951-92C5-1835123ED86A}" Language="SFX" Hash="{FD6F2E7B-DC3A-C37A-F4BC-F24790D0FCAA}">
+			<ObjectPath>ui_menu_up</ObjectPath>
+			<ShortName>ui_menu_up</ShortName>
+			<Path>Event/ui_menu_up.bnk</Path>
+			<Media>
+				<File Id="229508014" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Menu_Up.wav</ShortName>
+					<Path>Media/229508014.wem</Path>
+					<CachePath>SFX/Menu_Up_62D8B565.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2139045725" Name="ui_menu_up" ObjectPath="\Events\Default Work Unit\UI\ui_menu_up" GUID="{400B196F-99C2-4951-92C5-1835123ED86A}" DurationType="OneShot" DurationMin="0.8730152" DurationMax="0.8730152">
+					<MediaRefs>
+						<MediaRef Id="229508014"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3083016892" Type="Event" GUID="{BC1A22F0-7875-4280-BA1A-6CF9A96C0DAF}" Language="SFX" Hash="{A67FF936-D6D4-933F-A8F8-DD7C645B2551}">
+			<ObjectPath>ui_cancel</ObjectPath>
+			<ShortName>ui_cancel</ShortName>
+			<Path>Event/ui_cancel.bnk</Path>
+			<Media>
+				<File Id="778343760" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Cancel.wav</ShortName>
+					<Path>Media/778343760.wem</Path>
+					<CachePath>SFX/Cancel_252FF634.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3083016892" Name="ui_cancel" ObjectPath="\Events\Default Work Unit\UI\ui_cancel" GUID="{BC1A22F0-7875-4280-BA1A-6CF9A96C0DAF}" DurationType="OneShot" DurationMin="1.707819" DurationMax="1.707819">
+					<MediaRefs>
+						<MediaRef Id="778343760"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3092893974" Type="Event" GUID="{943CAA79-2E19-4651-A508-BF219742E010}" Language="SFX" Hash="{7107D90E-EE67-0C4F-B8E0-8688D013C7D6}">
+			<ObjectPath>ui_menu_down</ObjectPath>
+			<ShortName>ui_menu_down</ShortName>
+			<Path>Event/ui_menu_down.bnk</Path>
+			<Media>
+				<File Id="630573081" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Menu_Down.wav</ShortName>
+					<Path>Media/630573081.wem</Path>
+					<CachePath>SFX/Menu_Down_A2E8E099.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3092893974" Name="ui_menu_down" ObjectPath="\Events\Default Work Unit\UI\ui_menu_down" GUID="{943CAA79-2E19-4651-A508-BF219742E010}" DurationType="OneShot" DurationMin="0.8692537" DurationMax="0.8692537">
+					<MediaRefs>
+						<MediaRef Id="630573081"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="3409405782" Type="Event" GUID="{6F4F16D0-F33D-4D76-872A-D7AADD6D97F5}" Language="SFX" Hash="{8A132568-3787-7661-E51E-2BFC59C3DB12}">
+			<ObjectPath>dino_voice</ObjectPath>
+			<ShortName>dino_voice</ShortName>
+			<Path>Event/dino_voice.bnk</Path>
+			<Media>
+				<File Id="142947369" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Do_high.wav</ShortName>
+					<Path>Media/142947369.wem</Path>
+					<CachePath>SFX/Do_high_4EB96A0C.wem</CachePath>
+				</File>
+				<File Id="505605301" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Fa.wav</ShortName>
+					<Path>Media/505605301.wem</Path>
+					<CachePath>SFX/Fa_72865AFB.wem</CachePath>
+				</File>
+				<File Id="720236846" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>La.wav</ShortName>
+					<Path>Media/720236846.wem</Path>
+					<CachePath>SFX/La_CC84C8D5.wem</CachePath>
+				</File>
+				<File Id="761176750" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Do_low.wav</ShortName>
+					<Path>Media/761176750.wem</Path>
+					<CachePath>SFX/Do_low_0B2E72FF.wem</CachePath>
+				</File>
+				<File Id="767993874" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>So.wav</ShortName>
+					<Path>Media/767993874.wem</Path>
+					<CachePath>SFX/So_5EC5F2BD.wem</CachePath>
+				</File>
+				<File Id="842839151" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Ti.wav</ShortName>
+					<Path>Media/842839151.wem</Path>
+					<CachePath>SFX/Ti_02174025.wem</CachePath>
+				</File>
+				<File Id="909426554" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Mi.wav</ShortName>
+					<Path>Media/909426554.wem</Path>
+					<CachePath>SFX/Mi_A6A559DD.wem</CachePath>
+				</File>
+				<File Id="976022224" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Re.wav</ShortName>
+					<Path>Media/976022224.wem</Path>
+					<CachePath>SFX/Re_F69FA804.wem</CachePath>
+				</File>
+			</Media>
+			<Plugins>
+				<Custom>
+					<Plugin Id="29738352" Name="Pitch Shifter (Custom)" ObjectPath="\Actor-Mixer Hierarchy\Environmental\Dialogue\Voices\[Effect Slot [0]: (Pitch Shifter)]\Pitch Shifter (Custom)" GUID="{80014F79-F641-4746-B0B8-59CAE5A1CE07}" LibName="Wwise Pitch Shifter" LibId="8912899"/>
+				</Custom>
+			</Plugins>
+			<Events>
+				<Event Id="3409405782" Name="dino_voice" ObjectPath="\Events\Default Work Unit\Environmental\Dialogue\dino_voice" GUID="{6F4F16D0-F33D-4D76-872A-D7AADD6D97F5}" DurationType="OneShot" DurationMin="0.23774455" DurationMax="0.33538964">
+					<MediaRefs>
+						<MediaRef Id="142947369"/>
+						<MediaRef Id="505605301"/>
+						<MediaRef Id="720236846"/>
+						<MediaRef Id="761176750"/>
+						<MediaRef Id="767993874"/>
+						<MediaRef Id="842839151"/>
+						<MediaRef Id="909426554"/>
+						<MediaRef Id="976022224"/>
+					</MediaRefs>
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="29738352"/>
+						</Custom>
+					</PluginRefs>
+				</Event>
+			</Events>
+			<GameParameters>
+				<GameParameter Id="3409405782" Name="Dino_Voice" ObjectPath="\Game Parameters\Default Work Unit\Dino_Voice" GUID="{1CA72BA4-5E7D-4789-8AD5-AC3228956D81}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{67D8BE67-FD0E-0D4D-718F-5349E3EA9BD5}</FileHash>
+</SoundBanksInfo>
