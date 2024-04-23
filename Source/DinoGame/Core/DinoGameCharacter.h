@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "PaperZDCharacter.h"
 #include "Logging/LogMacros.h"
 #include "DinoGameCharacter.generated.h"
 
@@ -13,10 +13,10 @@ class UInputMappingContext;
 class UInputAction;
 struct FInputActionValue;
 
-DECLARE_LOG_CATEGORY_EXTERN(LogTemplateCharacter, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogDinoGameCharacter, Log, All);
 
 UCLASS(config=Game)
-class ADinoGameCharacter : public ACharacter
+class ADinoGameCharacter : public APaperZDCharacter
 {
 	GENERATED_BODY()
 
@@ -45,7 +45,7 @@ class ADinoGameCharacter : public ACharacter
 	UInputAction* LookAction;
 
 public:
-	ADinoGameCharacter();
+	ADinoGameCharacter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get());
 	
 
 protected:
