@@ -75,3 +75,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# UnrealVS extension
+*.unrealvs
+
+# No idea what the fuck this is
+enc_temp_folder*
