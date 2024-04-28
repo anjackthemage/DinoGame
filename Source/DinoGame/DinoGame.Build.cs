@@ -14,7 +14,8 @@ public class DinoGame : ModuleRules
 		{
 			"Core", 
 			"CoreUObject", 
-			"Engine", 
+			"Engine",
+			"GameplayTags",
 			"InputCore", 
 			"EnhancedInput",
 			"PaperZD",
